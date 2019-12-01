@@ -25,7 +25,7 @@
 }
 
 /* large */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1080px) {
   .container-width {
     width: 80%;
     margin: auto;
@@ -66,7 +66,7 @@
 }
 
 /* medium */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
   .container-width {
     width: 85%;
     margin: auto;
