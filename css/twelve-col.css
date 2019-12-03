@@ -1,19 +1,22 @@
 /* debug */
-.debug .container {
+.debug .container,
+.debug .container-fluid,
+.debug-no-height .container,
+.debug-no-height .container-fluid {
   border: 1px solid red;
+  background: pink;
 }
 
-.debug [class^="col-"] {
+.debug .container [class*="col-"] {
+  border: 1px solid blue;
+  height: 300px;
+}
+
+.debug-no-height .container [class*="col-"] {
   border: 1px solid blue;
 }
 
 /* general */
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  border: 0px;
-}
-
 .container::after {
   content: '';
   display: table;
