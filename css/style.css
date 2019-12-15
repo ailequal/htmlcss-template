@@ -20,26 +20,32 @@ body {
 /* empty */
 
 /* main */
-/* large */
-@media screen and (min-width: 1080px) {
-  body {
-    font-size: 1em;
-  }
-}
-
-/* medium */
-@media screen and (min-width: 768px) and (max-width: 1080px) {
-  body {
-    font-size: 0.9em;
-  }
-}
-
-/* small */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 0.8em;
-  }
-}
+/* empty */
 
 /* footer */
 /* empty */
+
+/* media queries */
+/* extra small */
+@media screen and (max-width: 576px) {
+
+}
+
+/* small */
+@media screen and (min-width: 576px and (max-width: 768px) {
+
+}
+/* medium */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* large */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* extra large */
+@media screen and (min-width: 1200px) {
+
+}
